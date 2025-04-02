@@ -5,17 +5,12 @@
   "sources": {
     "r68scq4": {
       "type": "geojson",
-      "data": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/refs/heads/main/map.geojson"
+      "data": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/map.geojson"
     }
   },
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
-    {
-      "id": "",
-      "type": "background",
-      "paint": {"background-color": "rgba(221, 203, 167, 1)"}
-    },
     {
       "id": "mountain",
       "type": "fill",
@@ -77,6 +72,11 @@
         "fill-color": "#78909C",
         "fill-outline-color": "#546E7A"
       }
+    },
+    {
+      "id": "backg",
+      "type": "background",
+      "paint": {"background-color": "rgba(221, 203, 167, 1)"}
     }
   ],
   "id": "t7hsuf9"
