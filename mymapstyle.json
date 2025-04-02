@@ -1,0 +1,83 @@
+{
+  "version": 8,
+  "name": "MyMapStyle",
+  "metadata": {"maputnik:renderer": "mlgljs"},
+  "sources": {
+    "r68scq4": {
+      "type": "geojson",
+      "data": "https://github.com/florentina-a/fantasy-maps/blob/main/map.geojson"
+    }
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "",
+      "type": "background",
+      "paint": {"background-color": "rgba(221, 203, 167, 1)"}
+    },
+    {
+      "id": "mountain",
+      "type": "fill",
+      "source": "r68scq4",
+      "source-layer": "terrain_type",
+      "filter": ["all", ["==", "terrain_type", "mountain"]],
+      "paint": {
+        "fill-color": "#8D6E63",
+        "fill-opacity": 0.9,
+        "fill-outline-color": "#5D4037"
+      }
+    },
+    {
+      "id": "forest",
+      "type": "fill",
+      "source": "r68scq4",
+      "source-layer": "terrain_type",
+      "filter": ["all", ["==", "terrain_type", "forest"]],
+      "paint": {
+        "fill-color": "#2E7D32",
+        "fill-opacity": 0.85,
+        "fill-outline-color": "#1B5E20",
+        "fill-pattern": "forest_pattern"
+      }
+    },
+    {
+      "id": "hill",
+      "type": "fill",
+      "source": "r68scq4",
+      "source-layer": "terrain_type",
+      "filter": ["all", ["==", "terrain_type", "hill"]],
+      "paint": {
+        "fill-color": "#A1887F",
+        "fill-outline-color": "#8D6E63",
+        "fill-opacity": 0.8,
+        "fill-pattern": "hill-pattern"
+      }
+    },
+    {
+      "id": "sea",
+      "type": "fill",
+      "source": "r68scq4",
+      "source-layer": "terrain_type",
+      "filter": ["all", ["==", "terrain_type", "sea"]],
+      "paint": {
+        "fill-opacity": 0.75,
+        "fill-color": "#1E88E5",
+        "fill-outline-color": "#1565C0"
+      }
+    },
+    {
+      "id": "urban",
+      "type": "fill",
+      "source": "r68scq4",
+      "source-layer": "terrain_type",
+      "filter": ["all", ["==", "terrain_type", "urban"]],
+      "paint": {
+        "fill-opacity": 0.9,
+        "fill-color": "#78909C",
+        "fill-outline-color": "#546E7A"
+      }
+    }
+  ],
+  "id": "t7hsuf9"
+}
