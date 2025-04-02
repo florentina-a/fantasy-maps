@@ -11,6 +11,15 @@
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
+{
+  "id": "test-all-features",
+  "type": "fill",
+  "source": "r68scq4",
+  "paint": {
+    "fill-color": "red",
+    "fill-opacity": 0.5
+  }
+},
     {
       "id": "mountain",
       "type": "fill",
