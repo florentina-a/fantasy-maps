@@ -5,7 +5,7 @@
   "sources": {
     "r68scq4": {
       "type": "geojson",
-      "data": "https://github.com/florentina-a/fantasy-maps/blob/main/map.geojson"
+      "data": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/refs/heads/main/map.geojson"
     }
   },
   "sprite": "",
