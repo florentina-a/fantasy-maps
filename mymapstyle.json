@@ -3,11 +3,32 @@
   "name": "MyMapStyle",
   "metadata": {"maputnik:renderer": "mlgljs"},
   "sources": {
-    "r68scq4": {
-      "type": "geojson",
-      "data": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/map.geojson"
+  "r68scq4": {
+    "type": "geojson",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "terrain_type": "mountain",
+            "LocationName": "Test Mountain"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+              [-50, -30],
+              [-40, -20],
+              [-30, -30],
+              [-40, -40],
+              [-50, -30]
+            ]]
+          }
+        }
+      ]
     }
-  },
+  }
+},
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
