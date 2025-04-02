@@ -1,0 +1,14 @@
+{
+  "version": 8,
+  "name": "Fantasy Map Style",
+  "sources": {},
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#F5EFD7"
+      }
+    }
+  ]
+}
