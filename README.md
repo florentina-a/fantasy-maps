@@ -1,6 +1,4 @@
 # fantasy-maps
-AI-generated fantasy maps.
-
 License: Creative Commons Attribution-NonCommercial 4.0 International Public License.
 
 Kepler.gl exercise: Combine a fantasy map with a georeferenced dataset
