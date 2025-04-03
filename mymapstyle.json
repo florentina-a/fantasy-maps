@@ -1,33 +1,29 @@
 {
   "version": 8,
-  "name": "MyMapStyle",
-  "center": [0, 0],
-  "zoom": 2,
-  "maxBounds": [[-1900, -950], [1900, 950]],
-  "renderWorldCopies": false,
-    "sources": {
-    "background-image": {
+  "id": "fantasy-background",
+  "type": "custom",
+  "config": {
+    "dataId": null,
+    "label": "Fantasy Background",
+    "isVisible": true,
+    "color": [255, 255, 255],
+    "visConfig": {
+      "opacity": 1
+    }
+  },
+  "visualChannels": {},
+  "mapboxLayer": {
+    "id": "fantasy-map-layer",
+    "type": "raster",
+    "source": {
       "type": "image",
       "url": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/ChatGPT_Map_03.04.2025_10_19_12.png",
       "coordinates": [
-  	[-1800, 850], 
-  	[1800, 850],   
-  	[1800, -850],   
-  	[-1800, -850]
-	]
+        [ -149.3724, 62.83936 ],
+        [ 39.2986, 62.83936 ],
+        [ 39.2986, -57.28386 ],
+        [ -149.3724, -57.28386 ]
+      ]
     }
-  },
-  "sprite": "",
-  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
-  "layers": [
-    {
-      "id": "background",
-      "type": "raster",
-      "source": "background-image",
-      "paint": {
-        "raster-opacity": 1
-      }
-    }
-  ],
-  "id": "t7hsuf9"
+  }
 }
