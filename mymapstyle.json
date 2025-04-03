@@ -7,10 +7,10 @@
       "type": "image",
       "url": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/ChatGPT4o_MyFictionalWorldMap.png",
       "coordinates": [
-  	[-180, -85], 
-  	[180, -85],   
+  	[-180, 85], 
   	[180, 85],   
-  	[-180, 85]
+  	[180, -85],   
+  	[-180, -85]
 	]
     }
   },
@@ -23,7 +23,13 @@
       "source": "background-image",
       "paint": {
         "raster-opacity": 1
-	}
+	"raster-fade-duration": 0
+	},
+      "layout": {
+      	"visibility": "visible"
+      },
+    	"minzoom": 0,
+    	"maxzoom": 22
     }
   ],
   "id": "t7hsuf9"
