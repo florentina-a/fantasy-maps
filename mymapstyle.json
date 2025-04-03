@@ -1,7 +1,6 @@
 {
   "version": 8,
   "name": "MyMapStyle",
-  "metadata": {"maputnik:renderer": "mlgljs"},
   "center": [0, 0],
   "zoom": 2,
   "maxBounds": [[-190, -95], [190, 95]],
@@ -9,7 +8,7 @@
     "sources": {
     "background-image": {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/ChatGPT4o_MyFictionalWorldMap.png",
+      "url": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/ChatGPT_Map_03.04.2025_10_19_12.png",
       "coordinates": [
   	[-180, 85], 
   	[180, 85],   
