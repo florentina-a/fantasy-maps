@@ -3,14 +3,12 @@
   "name": "MyMapStyle",
   "center": [0, 0],
   "zoom": 2,
-  "minzoom": 1,
-  "maxzoom": 4,
   "maxBounds": [[-160, -70], [160, 70]],
   "repeat": false,
     "sources": {
     "background-image": {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/ChatGPT_Map_03.04.2025_10_19_12.png",
+      "url": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/ChatGPT4o_FantasyMap_03.04.2025.png",
       "coordinates": [
         [ -149.3724, 62.83936 ],
         [ 39.2986, 62.83936 ],
@@ -24,8 +22,6 @@
       "id": "fantasy-map_background",
       "type": "raster",
       "source": "background-image",
-      "minzoom": 1,
-      "maxzoom": 4,
       "paint": {
         "raster-opacity": 1
       }
