@@ -3,49 +3,18 @@
   "name": "MyMapStyle",
   "metadata": {"maputnik:renderer": "mlgljs"},
   "sources": {
-  "r68scq4": {
-    "type": "geojson",
-    "data": {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": {
-            "terrain_type": "mountain",
-            "LocationName": "Test Mountain"
-          },
-          "geometry": {
-            "type": "Polygon",
-            "coordinates": [[
-              [-50, -30],
-              [-40, -20],
-              [-30, -30],
-              [-40, -40],
-              [-50, -30]
-            ]]
-          }
-        }
-      ]
+    "r68scq4": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/map.geojson"
     }
-  }
-},
+  },
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
-{
-  "id": "test-all-features",
-  "type": "fill",
-  "source": "r68scq4",
-  "paint": {
-    "fill-color": "red",
-    "fill-opacity": 0.5
-  }
-},
     {
       "id": "mountain",
       "type": "fill",
       "source": "r68scq4",
-      "source-layer": "terrain_type",
       "filter": ["all", ["==", "terrain_type", "mountain"]],
       "paint": {
         "fill-color": "#8D6E63",
@@ -57,7 +26,6 @@
       "id": "forest",
       "type": "fill",
       "source": "r68scq4",
-      "source-layer": "terrain_type",
       "filter": ["all", ["==", "terrain_type", "forest"]],
       "paint": {
         "fill-color": "#2E7D32",
@@ -83,7 +51,6 @@
       "id": "sea",
       "type": "fill",
       "source": "r68scq4",
-      "source-layer": "terrain_type",
       "filter": ["all", ["==", "terrain_type", "sea"]],
       "paint": {
         "fill-opacity": 0.75,
@@ -95,7 +62,6 @@
       "id": "urban",
       "type": "fill",
       "source": "r68scq4",
-      "source-layer": "terrain_type",
       "filter": ["all", ["==", "terrain_type", "urban"]],
       "paint": {
         "fill-opacity": 0.9,
