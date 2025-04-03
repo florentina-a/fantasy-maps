@@ -4,7 +4,6 @@
   "center": [0, 0],
   "zoom": 2,
   "maxBounds": [[-160, -70], [160, 70]],
-  "renderWorldCopies": false,
   "repeat": false,
     "sources": {
     "background-image": {
