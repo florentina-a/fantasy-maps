@@ -22,7 +22,7 @@
       "type": "raster",
       "source": "background-image",
       "paint": {
-        "raster-opacity": 1
+        "raster-opacity": 1,
 	"raster-fade-duration": 0
 	},
       "layout": {
