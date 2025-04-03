@@ -14,3 +14,5 @@ Kepler.gl exercise: Combine a fantasy map with a georeferenced dataset
   - In the field 1. Paste style url, copy-paste the link:
     https://raw.githubusercontent.com/florentina-a/fantasy-maps/refs/heads/main/mapstyle.json
   - Click Add Style.
+5. From the right side panel, select Show legend.
+6. To share/export the map, click on Share from the top-left panel. 
