@@ -2,10 +2,16 @@
   "version": 8,
   "name": "MyMapStyle",
   "metadata": {"maputnik:renderer": "mlgljs"},
-  "sources": {
-    "r68scq4": {
-      "type": "geojson",
-      "data": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/map.geojson"
+    "sources": {
+    "background-image": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/ChatGPT4o_MyFictionalWorldMap.png",
+      "coordinates": [
+        [west, south],
+        [east, south],
+        [east, north],
+        [west, north]
+      ]
     }
   },
   "sprite": "",
@@ -67,9 +73,11 @@
       }
     },
     {
-      "id": "backg",
-      "type": "background",
-      "paint": {"background-color": "rgba(221, 203, 167, 1)"}
+      "id": "background",
+      "type": "raster",
+      "source": "background-image",
+      "paint": {
+        "raster-opacity": 1
     }
   ],
   "id": "t7hsuf9"
