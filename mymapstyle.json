@@ -12,7 +12,7 @@
   	[180, 85],   
   	[-180, 85]
 	]
-    }
+    },
     "r68scq4": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/map.geojson"
