@@ -2,6 +2,10 @@
   "version": 8,
   "name": "MyMapStyle",
   "metadata": {"maputnik:renderer": "mlgljs"},
+  "center": [0, 0],
+  "zoom": 2,
+  "maxBounds": [[-190, -95], [190, 95]],
+  "renderWorldCopies": false,
     "sources": {
     "background-image": {
       "type": "image",
