@@ -38,7 +38,6 @@
       "id": "hill",
       "type": "fill",
       "source": "r68scq4",
-      "source-layer": "terrain_type",
       "filter": ["all", ["==", "terrain_type", "hill"]],
       "paint": {
         "fill-color": "#A1887F",
