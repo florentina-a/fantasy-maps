@@ -1,6 +1,7 @@
 # fantasy-maps
 Chat-GPT4o-generated fantasy maps.
 License: Creative Commons Attribution-NonCommercial 4.0 International Public License.
+
 Kepler.gl exercise
 1. Launch Kepler.gl (https://kepler.gl/).
 2. Add the sample data (FantasyWorld.csv) using Add Data To Map.
