@@ -30,8 +30,7 @@
       "paint": {
         "fill-color": "#2E7D32",
         "fill-opacity": 0.85,
-        "fill-outline-color": "#1B5E20",
-        "fill-pattern": "forest_pattern"
+        "fill-outline-color": "#1B5E20"
       }
     },
     {
