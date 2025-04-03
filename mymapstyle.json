@@ -13,6 +13,10 @@
   	[-180, 85]
 	]
     }
+    "r68scq4": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/florentina-a/fantasy-maps/main/map.geojson"
+    }
   },
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
