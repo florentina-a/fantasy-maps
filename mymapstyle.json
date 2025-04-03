@@ -27,13 +27,7 @@
       "source": "background-image",
       "paint": {
         "raster-opacity": 1,
-	"raster-fade-duration": 0
-	},
-      "layout": {
-      	"visibility": "visible"
-      },
-    	"minzoom": 0,
-    	"maxzoom": 22
+      }
     }
   ],
   "id": "t7hsuf9"
