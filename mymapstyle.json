@@ -26,6 +26,9 @@
       "source": "background-image",
       "paint": {
         "raster-opacity": 1
+      },
+      "pattern": {
+        "repeat": false
       }
     }
   ],
