@@ -78,6 +78,7 @@
       "source": "background-image",
       "paint": {
         "raster-opacity": 1
+	}
     }
   ],
   "id": "t7hsuf9"
