@@ -21,14 +21,11 @@
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
-      "id": "background",
+      "id": "fantasy-map_background",
       "type": "raster",
       "source": "background-image",
       "paint": {
         "raster-opacity": 1
-      },
-      "pattern": {
-        "repeat": false
       }
     }
   ],
